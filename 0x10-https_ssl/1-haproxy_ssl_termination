@@ -46,5 +46,5 @@ frontend makonde-frontend-https
 
 backend makonde-backend
         balance roundrobin
-        server 63210-web-01 100.25.19.204:80 check
-        server 63210-web-02 54.157.159.85:80 check
+        server 63210-web-01 35.174.176.37:80 check
+        server 63210-web-02 100.25.160.95:80 check
