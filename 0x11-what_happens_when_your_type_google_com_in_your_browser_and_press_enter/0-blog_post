@@ -1,7 +1,7 @@
 When you type "google.com" in your browser and press enter, a lot happens behind the scenes to deliver the Google search page to your device. The process involves several steps and various technologies, including DNS requests, TCP/IP, firewalls, HTTPS/SSL, load-balancers, web servers, application servers, and databases. Let's take a closer look at what happens when you type "google.com" in your browser.
 
 DNS Request
-When you type "google.com" in your browser, the first thing that happens is a DNS request. DNS stands for Domain Name System, and it is a system that translates domain names (like "google.com") into IP addresses (like "172.217.12.14"). Your computer sends a DNS query to a DNS server, asking for the IP address of "google.com." The DNS server responds with the IP address, and your browser can then establish a connection with the server.
+When you type "google.com" in your browser, the first thing that happens is a DNS request. DNS stands for Domain Name System, and it is a system that translates domain names (like "google.com") into IP addresses (like "72.217.12.14"). Your computer sends a DNS query to a DNS server, asking for the IP address of "google.com." The DNS server responds with the IP address, and your browser can then establish a connection with the server.
 
 TCP/IP
 Once your browser has the IP address of the server that hosts "google.com," it uses the TCP/IP protocol to establish a connection with the server. TCP (Transmission Control Protocol) is responsible for breaking down the data into packets and ensuring that all packets are received without errors. IP (Internet Protocol) is responsible for routing the packets to their destination. Together, TCP/IP ensures that the data is transmitted reliably over the internet.
