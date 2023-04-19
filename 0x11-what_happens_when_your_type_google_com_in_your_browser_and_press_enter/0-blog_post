@@ -1,0 +1,21 @@
+When you type "google.com" in your browser and press Enter, a series of complex processes occur behind the scenes to bring up the Google homepage. As a senior software engineer, I'll break down these processes into manageable steps so you can understand what happens when you perform this seemingly simple action.
+
+Step 1 DNS lookup: 
+When you type "google.com" in your browser, the first thing that happens is a DNS (Domain Name System) lookup. DNS is like a phone book for the internet, which maps domain names to IP addresses. Your browser sends a request to a DNS resolver (usually your Internet Service Provider's server) to find the IP address associated with "google.com". Once the IP address is found, it is returned to your browser.
+
+Step 2 TCP connection:
+After obtaining the IP address, your browser initiates a TCP (Transmission Control Protocol) connection with the web server at that IP address. The browser sends a request to the server to retrieve the webpage.
+
+Step 3 HTTP request: 
+The request that the browser sends to the server is an HTTP (Hypertext Transfer Protocol) request. This request contains information such as the type of request (GET, POST, etc.), the URL of the page being requested, and any additional data required by the server.
+
+Step 4 Server processing: 
+When the server receives the HTTP request, it processes the request and retrieves the requested webpage. This process involves accessing files on the server, running server-side scripts, and interacting with databases if necessary.
+
+Step 5 HTTP response: 
+Once the server has processed the request, it sends back an HTTP response to the browser. This response contains the requested webpage, along with any additional data that the server wants to send back to the browser (e.g., cookies, caching instructions, etc.).
+
+Step 6 Rendering: 
+Finally, the browser receives the HTTP response and renders the webpage on your screen. This involves parsing the HTML, CSS, and JavaScript code that make up the webpage, executing any JavaScript code, and applying any styles to the elements on the page.
+
+In summary, when you type "google.com" in your browser and press Enter, a series of processes occur behind the scenes, from DNS lookup to TCP connection, HTTP request to server processing, HTTP response to rendering. Understanding these processes can give you a better appreciation for the complexity of the internet and the web pages we access every day.
