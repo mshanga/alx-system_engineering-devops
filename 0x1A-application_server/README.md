@@ -48,9 +48,9 @@ Upstart script to keep the application running on server reboots.
   reloads Gunicorn.
 
 
-## Authors :black_nib:
+## Authors 
 
-- [Emmanuel Mshanga Makonde](https://www.linkedin.com/in/emmanuel-makonde/) | [Twitter](https://twitter.com/mshanga) | [GitHub](https://github.com/mshanga)
+- [Emmanuel Makonde](https://www.linkedin.com/in/emmanuel-makonde/) | [Twitter](https://twitter.com/heymshanga) | [GitHub](https://github.com/mshanga)
 
 
 
